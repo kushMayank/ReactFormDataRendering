@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+} */
+
+.Header {
+  background-color: rgb(173, 219, 114);
+  height: 150px;
+  padding: 20px;
+  color: rgb(216, 155, 155);
+}
+
+.headerTitle {
+  font-size: 1.5em;
+}
+
+.Footer{
+background-color:rgb(201, 181, 185)
+}
+.Footertitle{
+  background-color: rgb(236, 223, 231);
+}
+
+.Home{
+  display:flex; flex-direction:row;
+}
+
+.Input{
+  background-color: rgb(237, 243, 243);
+  height: 200px;
+  width: 800px;
+  align-content: center
+  
+}
+
+.Output{
+  background-color: rgb(220, 206, 233);
+  height: 200px;
+  width: 800px;
+  
+  
+  
+}
+
+.Suggestion{
+background-color: rgb(167, 144, 187)
+}
+.Suggestionlist{
+  background-color: rgb(112, 146, 146)
+
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
